@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(10, 13, 9);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header,
+.navigation_header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.header {
+    background-color: rgba(17, 24, 12, 0.555);
+    box-shadow: 1px 1px 4px rgba(19, 57, 19, 0.438);
+    height: 3, 5em;
+    padding-right: 70px;
+    padding-left: 10px;
+    justify-content: space-between;
+}
+
+.navigation_header {
+    gap: 20px;
+    ;
+}
+
+.navigation_header a {
+    text-decoration: none;
+    color: rgb(168, 54, 0);
+    transition: 1s;
+
+}
+
+.navigation_header a:hover {
+    color: rgb(127, 164, 127);
+    text-shadow: 2px 2px 5px rgb(127, 164, 127);
+}
+
+.logo_playground.png {
+    background-color: rgba(17, 24, 12, 0.555);
+}
+
+h1 {
+    color: rgb(192, 94, 45);
+    text-align: center;
+    font-size: 60px;
+}
+
+p {
+    color: rgb(184, 100, 57);
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+}
+
+footer {
+    background-color: rgb(17, 24, 12, 0.555);
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    padding: 8px;
+}
+.video-cover {
+    width: 700px;
+    height: 300px;
+    margin: 50px;
+
+}
+.best-places-to-work-awards-2019-2,
+.industry-workshops-2018-2,
+.industry-workshops-2018,
+.best-places-to-work-awards-2019 {
+    width: 400px;
+    height: 300px;
+} 
+
+.container-mid {
+    margin: 0 auto 0 auto;
+    width: 70%;
+    height: 700%;
+    background-color: rgb(35, 56, 22);
+    border-radius: 30px;
+  }
+  
+  .container-mid .post h1 {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  .container-mid .post {
+    margin: 0 20px 0 50px;
+    padding: 10px 0 25px 0;
+  }
+  
+  .container-mid .content {
+    font-family: 'Open Sans', sans-serif;
+  }
+
+.sobre_nós {
+    background-color: rgb(49, 65, 37);
+    border-radius: 30px;
+    width: 500px;
+    align-items: center;
+    display: flex;
+}
+
+content h1 {
+    padding-top: 140px;
+}
+
+.table-picture td{
+    border: 3px;
+}
+
+footer nav {
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.container {
+    text-align: center;
+}
